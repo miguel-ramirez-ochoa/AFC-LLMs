@@ -1,0 +1,5 @@
+# Dependencias del proyecto de terminal.
+# requests conecta cliente_ia.py con la API HTTP de OpenRouter.
+# python-dotenv permite a config.py leer .env.
+requests>=2.32,<3
+python-dotenv>=1,<2

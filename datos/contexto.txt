@@ -1,0 +1,39 @@
+GUÍA TÉCNICA — PROYECTO PYLLM
+
+Documento interno de un proyecto ficticio, creado para el taller de inteligencia artificial.
+
+1. DESCRIPCIÓN DEL PROYECTO
+
+PyLLM es un asistente de programación desarrollado en Python que utiliza modelos de lenguaje mediante una API. Su objetivo es ayudar a estudiantes a comprender conceptos de programación y resolver dudas técnicas.
+
+2. ARQUITECTURA
+
+El proyecto se divide en tres componentes:
+- Cliente: gestiona las peticiones al modelo de lenguaje.
+- Motor conversacional: conserva el historial de mensajes.
+- Módulo de contexto: incorpora información de documentos externos.
+
+El proyecto utiliza Python 3.12.
+
+3. CONFIGURACIÓN
+
+La versión actual de PyLLM es la 2.4.1.
+
+El nombre en clave de esta versión es NeuralBridge.
+
+El asistente conserva un máximo de 8 interacciones completas en memoria y tiene un límite de salida de 600 tokens por respuesta.
+
+La aplicación utiliza UTF-8 para leer documentos.
+
+4. COMANDOS DISPONIBLES
+
+/reset: elimina el historial de conversación.
+/stats: muestra el número de consultas realizadas.
+/context: muestra el documento de contexto activo.
+/salir: finaliza la ejecución del asistente.
+
+5. FUNCIONALIDADES FUTURAS
+
+Se está estudiando incorporar una interfaz web, almacenamiento persistente de conversaciones y búsqueda semántica mediante embeddings.
+
+Estas funcionalidades todavía no están implementadas.

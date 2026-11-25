@@ -1,0 +1,18 @@
+# Excluye credenciales locales y archivos generados por Python.
+# Se aplica al repositorio de GitHub y protege el archivo .env.
+# La plantilla .env.example sí debe publicarse.
+.env
+.env.*
+!.env.example
+.venv/
+.venv_antiguo*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+env/
+Thumbs.db
+.vscode/
+.idea/
